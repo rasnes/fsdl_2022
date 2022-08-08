@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fsdl_2022"
+version = "0.1.0"
+description = ""
+authors = ["rasnes <rasmusnes@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.12.1"
+pytorch-lightning = "^1.7.0"
+torchvision = "^0.13.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
